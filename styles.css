@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    background-image: url("https://www.export.org.uk/media/150mdkwy/Glasgow.jpg");
+    background-size: cover;
+    color: #ffffff;
+    margin: 0;
+}
+
+#header h1 {
+    text-shadow: 2px 2px 4px black;
+    margin-top: 50px;
+}
+
+#header p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #82a5ca;
+}
+
+.widget {
+    margin: 30px auto;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    border: 6px solid white;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.widget-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+h2 {
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #82a5ca;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#tour-invite {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+}
+
+#tour-invite .widget-img {
+    height: 200px;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+#tour-invite:hover .widget-img {
+    content: url("https://i.pinimg.com/originals/4b/ea/bc/4beabc79f3ce42b6d7fe8bb73f6cd8df.gif");
+    object-fit: cover;
+}
+
+#footer {
+    font-style: italic;
+    padding: 30px 0;
+}
